@@ -1,6 +1,9 @@
 import streamlit as st
 st.title("""Hackerrank Cleaner""")
 
+CURRENT_THEME = "light"
+IS_DARK_THEME = False
+
 st_input = st.text_input("Masukkan username hackerrank")
 hc_input = st.text_input("Masukkan data hackerrank (CTRL+A) ")
 usernames = st_input.split(" ")
