@@ -1,5 +1,5 @@
 import streamlit as st
-st.write("""Hackerrank Cleaner""")
+st.title("""Hackerrank Cleaner""")
 
 st_input = st.text_input("Masukkan username hackerrank")
 hc_input = st.text_input("Masukkan data hackerrank (CTRL+A) ")
