@@ -8,6 +8,7 @@ removal = ['PREPARENEW', 'CERTIFY', 'COMPETE', 'Search', 'All', 'Contests', 'Gen
 str_input = hc_input.split(" ")
 str_input = [x for x in str_input if x.strip()]
 str_input = [x for x in str_input if x not in removal]
+st.text_area(label="Output")
 
 for user in usernames :
     if(user in str_input) : 
