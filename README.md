@@ -1,5 +1,5 @@
 # Hackerrank Cleaner
-https://firh-hc-cleaner-main-g6hfkb.streamlitapp.com/
+hc-cleaner-pti-a.streamlitapp.com
 
 This program is made for Computer Science lab assistants to input students’ scores in the hackerrank leaderboard. You'll need an excel/sheets containing the entry of every student's username on HackerRank
 
