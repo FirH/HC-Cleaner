@@ -8,11 +8,9 @@ removal = ['PREPARENEW', 'CERTIFY', 'COMPETE', 'Search', 'All', 'Contests', 'Gen
 str_input = hc_input.split(" ")
 str_input = [x for x in str_input if x.strip()]
 str_input = [x for x in str_input if x not in removal]
-st.text_area(label="Output")
 
 for user in usernames :
     if(user in str_input) : 
-        out = str_input[str_input.index(user)+1]
         style = f'<p style="font-family:Arial;">{str_input[str_input.index(user)+1]}</p>'
         st.markdown(style, unsafe_allow_html=True)
     else :
