@@ -12,6 +12,8 @@ str_input = [x for x in str_input if x not in removal]
 for user in usernames :
     if(user in str_input) : 
         out = str_input[str_input.index(user)+1]
-        st.write(str_input[str_input.index(user)+1])
+        style = '<p style="font-family:Arial; ">{str_input[str_input.index(user)+1]}</p>'
+        st.markdown(style, unsafe_allow_html=True)
     else :
-        st.write("Nan")
+        style = '<p style="font-family:Arial; ">"Nan"</p>'
+        st.markdown(style, unsafe_allow_html=True)
