@@ -10,14 +10,14 @@ str_input = [x for x in [x for x in hc_input.split(" ") if x.strip()] if x not i
 for user in usernames :
     if(user in str_input) : 
         style = f"""<p style="font-family:Arial; 
-                    background-color : rgb(255, 255 ,255 1); 
-                    color : rgb(0,0,0,1)">
+                    background-color : white; 
+                    color : black">
                     {str_input[str_input.index(user)+1]}</style>
                     </BR></p>"""
         st.markdown(style, unsafe_allow_html=True)
     else :
         style = """<p style="font-family:Arial; 
-                    background-color : rgb(255, 255 ,255 1); 
-                    color : rgb(0,0,0,1); ">Nan</style>
+                    background-color : white; 
+                    color : black; ">Nan</style>
                     </BR></p>"""
         st.markdown(style, unsafe_allow_html=True)
