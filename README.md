@@ -8,28 +8,27 @@ This program is made for Faculty of Computer Science lab assistants to input stu
 2. Copy the entire text of the leaderboard (use CTRL+A then CTRL+C)
 3. Copy the output of the program and paste it into the excel
 
-**Conttibutor**
-Username Github :
-Agistian
-trybhuwanes
-nimahmagfiroh
-gabriellafaa
-Delisyajayadi
-lintangea
-yasminambarrr
-ajengayukw
-MHilmiAdz
-malikgantenkbet
-fikriyarachmaa
-kindiaisyah
-Quivers24
-salmanovita
-Dinotonegoro
-salsabialf
-jihansasri
-Mardiyanto02
-rafisiregar14
-Diannurita
-rahmaulia9
-alfiansyahpradana
-23. Gavino Barca Diyu Nugroho(GavinoBarcaDiyuNugroho)
+**Conttibutor**<br/>
+Agistian<br/>
+trybhuwanes<br/>
+nimahmagfiroh<br/>
+gabriellafaa<br/>
+Delisyajayadi<br/>
+lintangea<br/>
+yasminambarrr<br/>
+ajengayukw<br/>
+MHilmiAdz<br/>
+malikgantenkbet<br/>
+fikriyarachmaa<br/>
+kindiaisyah<br/>
+Quivers24<br/>
+salmanovita<br/>
+Dinotonegoro<br/>
+salsabialf<br/>
+jihansasri<br/>
+Mardiyanto02<br/>
+rafisiregar14<br/>
+Diannurita<br/>
+rahmaulia9<br/>
+alfiansyahpradana<br/>
+GavinoBarcaDiyuNugroho
