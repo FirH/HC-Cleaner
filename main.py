@@ -6,7 +6,6 @@ st.write(
 
 div[class*="stTextInput"] label {
   font-size: 20px;
-  color: white;
 }
 
 </style>
