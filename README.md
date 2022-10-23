@@ -8,7 +8,7 @@ This program is made for Faculty of Computer Science lab assistants to input stu
 2. Copy the entire text of the leaderboard (use CTRL+A then CTRL+C)
 3. Copy the output of the program and paste it into the excel
 
-**Conttibutor**<br/>
+**Contributor**<br/>
 Agistian<br/>
 trybhuwanes<br/>
 nimahmagfiroh<br/>
