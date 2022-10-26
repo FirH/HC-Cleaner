@@ -26,5 +26,5 @@ for user in usernames :
     else :
         st.markdown("""<p style="font-family:Arial; 
                     background-color : white; 
-                    color : black; ">Nan</style>
+                    color : black; ">0</style>
                     </p>""", unsafe_allow_html=True)
