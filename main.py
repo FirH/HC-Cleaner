@@ -12,6 +12,7 @@ div[class*="stTextInput"] label {
 """, unsafe_allow_html=True
 )
 
+@st.cache
 unused_words = ['PREPARENEW', 'CERTIFY', 'COMPETE', 'Search', 'All', 'Contests', 'Generic', 'Leaderboard', 'AllFriendsFilter', 'by', 'Type', 'username', 'to', 'compare', 'Compare', 'Rank', 'User', 'Score', 'Time', 'Interview', 'Prep', 'Blog', 'Scoring', 'Environment', 'FAQ', 'About', 'Us', 'Support', 'Careers', 'Terms', 'Of', 'Service', 'Privacy', 'Policy', '|']
 usernames = (st.text_input("Masukkan username HackerRank")).split(" ")
 leaderboard_data = [x for x in [x for x in (st.text_input("Masukkan seluruh isi page leaderboard HackerRank (CTRL+A) ")).split(" ") if x.strip()] if x not in unused_words]
